@@ -12,7 +12,7 @@
 		2D395D4D22955A390065D7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D395D4B22955A390065D7AC /* Main.storyboard */; };
 		2D395D4F22955A3C0065D7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D395D4E22955A3C0065D7AC /* Assets.xcassets */; };
 		2D395D5222955A3C0065D7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D395D5022955A3C0065D7AC /* LaunchScreen.storyboard */; };
-		2D395D5D22955A3C0065D7AC /* DojoOnlineTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D395D5C22955A3C0065D7AC /* DojoOnlineTDDTests.swift */; };
+		2D395D5D22955A3C0065D7AC /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D395D5C22955A3C0065D7AC /* Interactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		2D395D5122955A3C0065D7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D395D5322955A3C0065D7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D395D5822955A3C0065D7AC /* DojoOnlineTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DojoOnlineTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D395D5C22955A3C0065D7AC /* DojoOnlineTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DojoOnlineTDDTests.swift; sourceTree = "<group>"; };
+		2D395D5C22955A3C0065D7AC /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		2D395D5E22955A3C0065D7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,7 @@
 		2D395D5B22955A3C0065D7AC /* DojoOnlineTDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D395D5C22955A3C0065D7AC /* DojoOnlineTDDTests.swift */,
+				2D395D5C22955A3C0065D7AC /* Interactor.swift */,
 				2D395D5E22955A3C0065D7AC /* Info.plist */,
 			);
 			path = DojoOnlineTDDTests;
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D395D5D22955A3C0065D7AC /* DojoOnlineTDDTests.swift in Sources */,
+				2D395D5D22955A3C0065D7AC /* Interactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
